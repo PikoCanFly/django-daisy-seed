@@ -28,53 +28,60 @@ A minimal, modern Django starter template using Tailwind CSS, DaisyUI components
 ## 🛠️ Installation
 
 1. **Clone the repository**
+⚠️ Note the . at the end
 
-   ```bash
-   git clone https://github.com/your-username/django-starter.git
-   cd django-starter
+
+
+   ```
+   git clone https://github.com/pikocanfly/django-daisy-seed.git .
+   
    ```
 
 2. **Create & activate a virtual environment**
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   venv/Scripts/activate  # On Linux/Mac OS use `source venv\bin\activate`
    ```
 
 3. **Install Python dependencies**
 
    run:
 
-     ```bash
+     ```
      pip install -r requirements.txt
      ```
-   
+4. **Apply Migrations & Create Superuser**
+
+   ```bash
+   python manage.py migrate
+   ```
+
+5. **Run the development server**
+
+   ```bash
+   python manage.py runserver
+   ```   
+
+# **Installing and configuring Tailwind CSS & DaisyUI**
+
+6. **Open a new terminal**
 
 4. **Install Tailwind CSS & DaisyUI**
 
-   ```bash
- npm install
+   ```
+      npm install
    ```
 
 
 
 6. **Build CSS**
 
-   ```bash
-  npm run watch:css
+   ```
+   npm run watch:css
    ```
 
-7. **Apply Migrations & Create Superuser**
 
-   ```bash
-   python manage.py migrate
-   ```
-
-8. **Run the development server**
-
-   ```bash
-   python manage.py runserver
-   ```
 
 ## ▶️ Usage
 
