@@ -1,0 +1,31 @@
+<div class="navbar bg-base-100 shadow-sm">
+    <div class="flex-1">
+    <a class="btn btn-ghost text-xl" href="/">🏠</a>
+    </div>
+    <div class="flex-none">
+    <input id="toggle-switch" type="checkbox" checked="checked" class="toggle" />
+    </div>
+  </div>
+
+  {% block scripts %}
+  <script>
+    const themeSwitch = document.getElementById('toggle-switch')
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const defaultTheme = prefersDark ? 'dark' : 'light';
+    const currentTheme = savedTheme || defaultTheme
+
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    themeSwitch.checked = currentTheme === 'dark';
+
+    
+    themeSwitch.addEventListener('change', ()=>{
+        const isChecked = themeSwitch.checked;
+        const newTheme = isChecked ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+    })
+
+  </script>
+  
+  {% endblock %}

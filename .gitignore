@@ -1,0 +1,45 @@
+# Python
+
+\*.py\[cod]
+**pycache**/
+\*.so
+\*.egg
+\*.egg-info/
+dist/
+build/
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+
+# Django
+
+\*.log
+\*.pot
+\*.pyc
+db.sqlite3
+/media/
+/staticfiles/
+/static/css/output.css  # Tailwind build output
+
+# Node.js & package manager
+
+node\_modules/
+npm-debug.log\*
+yarn-debug.log\*
+yarn-error.log\*
+.pnp/
+.pnp.js
+
+
+.vscode/
+.idea/
+\*.sublime-project
+\*.sublime-workspace
+
+# OS files
+
+.DS\_Store
+Thumbs.db

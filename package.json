@@ -1,0 +1,20 @@
+{
+  "name": "djangodaisy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "npx @tailwindcss/cli -i ./daisyseed/static/css/src/input.css -o ./daisyseed/static/css/src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.5",
+    "tailwindcss": "^4.1.5"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.35"
+  }
+}
