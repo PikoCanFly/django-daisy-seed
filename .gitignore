@@ -22,7 +22,7 @@ env/
 db.sqlite3
 /media/
 /staticfiles/
-/static/css/output.css  # Tailwind build output
+/static/css/src/output.css 
 
 # Node.js & package manager
 
