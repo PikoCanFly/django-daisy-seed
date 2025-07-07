@@ -103,6 +103,11 @@ Watch the full walkthrough here: [YouTube - Installation & Setup](https://m.yout
 4. DaisyUI’s CSS responds to `data-theme` changes, automatically switching component styles.
 5. The toggle input updates the attribute and saves the new theme back to `localStorage`.
 
+## ⁉️ How to Change Project Name
+The project name will be daisyseed. However, changing it to any name you want is a quick and easy process; as shown in the following tutorial:
+[![Watch the video](https://img.youtube.com/vi/Ak4XA5QK3_w/hqdefault.jpg)](https://youtu.be/Ak4XA5QK3_w)
+
+
 ## 🤝 Support
 If you find this project useful and want to support me:
 
@@ -112,7 +117,7 @@ If you find this project useful and want to support me:
 
 - Become a channel member for exclusive content and support: https://www.youtube.com/channel/UC8NoIbiu78iGMnh_xezgx8A/join
 
-- Give thanks directly on YouTube by clicking the "Thanks" button under my videos
+- Give thanks directly on YouTube by clicking the "Thanks" button under my video
 
 ## 📄 License
 
