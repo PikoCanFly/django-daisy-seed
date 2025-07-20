@@ -105,6 +105,8 @@ Watch the full walkthrough here: [YouTube - Installation & Setup](https://m.yout
 
 ## ⁉️ How to Change Project Name
 The project name will be daisyseed. However, changing it to any name you want is a quick and easy process; as shown in the following tutorial:
+
+
 [![Watch the video](https://img.youtube.com/vi/Ak4XA5QK3_w/hqdefault.jpg)](https://youtu.be/Ak4XA5QK3_w)
 
 
